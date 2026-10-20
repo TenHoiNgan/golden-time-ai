@@ -1,12 +1,13 @@
 """
 Script đánh giá hiệu năng mô hình nhận diện trái cây trên tập kiểm thử độc lập (Test Set).
+Hỗ trợ tính toán: Accuracy, Per-class Precision/Recall/F1, Macro-F1, Weighted-F1 và Confusion Matrix.
 """
 
 import argparse
 import json
 import os
 import sys
-from typing import Dict
+from typing import Dict, List, Optional, Tuple
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -25,24 +26,117 @@ def parse_args():
     parser.add_argument("--test-dir", type=str, default="./datasets/fruits/test", help="Thư mục chứa tập ảnh test")
     parser.add_argument("--model-path", type=str, default="./models/fruit_model.pt", help="Đường dẫn file trọng số mô hình")
     parser.add_argument("--meta-path", type=str, default="./models/model_meta.json", help="Đường dẫn file metadata")
+    parser.add_argument("--output-json", type=str, default=None, help="Đường dẫn lưu kết quả đánh giá dạng JSON")
     parser.add_argument("--batch-size", type=int, default=32)
     parser.add_argument("--device", type=str, default="cuda" if torch.cuda.is_available() else "cpu")
     return parser.parse_args()
 
 
+def calculate_metrics(
+    y_true: List[int],
+    y_pred: List[int],
+    num_classes: int,
+    class_names: List[str],
+) -> Dict:
+    """
+    Tính toán chi tiết các chỉ số phân loại:
+    - Overall Top-1 Accuracy
+    - Per-class Precision, Recall, F1-score
+    - Macro-F1, Weighted-F1
+    - Confusion Matrix và Top cặp lớp bị nhầm lẫn
+    """
+    total = len(y_true)
+    if total == 0:
+        return {
+            "total_samples": 0,
+            "overall_accuracy": 0.0,
+            "macro_f1": 0.0,
+            "weighted_f1": 0.0,
+            "per_class": {},
+            "confusion_matrix": [],
+            "top_confused_pairs": [],
+        }
+
+    # Xây dựng Confusion Matrix: row = true, col = pred
+    matrix = [[0 for _ in range(num_classes)] for _ in range(num_classes)]
+    for t, p in zip(y_true, y_pred):
+        if 0 <= t < num_classes and 0 <= p < num_classes:
+            matrix[t][p] += 1
+
+    per_class = {}
+    f1_list = []
+    weights_list = []
+
+    for i in range(num_classes):
+        tp = matrix[i][i]
+        fp = sum(matrix[r][i] for r in range(num_classes) if r != i)
+        fn = sum(matrix[i][c] for c in range(num_classes) if c != i)
+        support = sum(matrix[i])
+
+        precision = (tp / (tp + fp)) if (tp + fp) > 0 else 0.0
+        recall = (tp / (tp + fn)) if (tp + fn) > 0 else 0.0
+        f1 = (2 * precision * recall / (precision + recall)) if (precision + recall) > 0 else 0.0
+
+        c_name = class_names[i] if i < len(class_names) else f"class_{i}"
+        per_class[c_name] = {
+            "support": support,
+            "tp": tp,
+            "fp": fp,
+            "fn": fn,
+            "precision": round(precision, 4),
+            "recall": round(recall, 4),
+            "f1": round(f1, 4),
+        }
+        f1_list.append(f1)
+        weights_list.append(support)
+
+    correct_total = sum(matrix[i][i] for i in range(num_classes))
+    overall_acc = (correct_total / total) if total > 0 else 0.0
+
+    macro_f1 = (sum(f1_list) / len(f1_list)) if f1_list else 0.0
+    weighted_f1 = (
+        sum(f * w for f, w in zip(f1_list, weights_list)) / total
+    ) if total > 0 else 0.0
+
+    # Tìm các cặp nhầm lẫn nhiều nhất (true != pred)
+    confused_pairs = []
+    for r in range(num_classes):
+        for c in range(num_classes):
+            if r != c and matrix[r][c] > 0:
+                true_name = class_names[r] if r < len(class_names) else f"class_{r}"
+                pred_name = class_names[c] if c < len(class_names) else f"class_{c}"
+                confused_pairs.append({
+                    "true_class": true_name,
+                    "pred_class": pred_name,
+                    "count": matrix[r][c],
+                })
+    confused_pairs.sort(key=lambda x: x["count"], reverse=True)
+
+    return {
+        "total_samples": total,
+        "correct_predictions": correct_total,
+        "overall_accuracy": round(overall_acc, 4),
+        "macro_f1": round(macro_f1, 4),
+        "weighted_f1": round(weighted_f1, 4),
+        "per_class": per_class,
+        "confusion_matrix": matrix,
+        "top_confused_pairs": confused_pairs[:10],
+    }
+
+
 def evaluate(args):
-    print("=" * 60)
-    print("Bắt đầu đánh giá mô hình trên tập kiểm thử")
+    print("=" * 70)
+    print("Bắt đầu đánh giá mô hình trên tập kiểm thử độc lập (Test Set)")
     print(f"Mô hình: {args.model_path} | Tập test: {args.test_dir}")
-    print("=" * 60)
+    print("=" * 70)
 
     if not os.path.exists(args.test_dir):
-        print(f"Không tìm thấy thư mục kiểm thử: {args.test_dir}")
+        print(f"\n[THÔNG BÁO] Không tìm thấy thư mục kiểm thử: {args.test_dir}")
         print("Vui lòng chuẩn bị tập test theo cấu trúc thư mục lớp để đánh giá.")
         return
 
     if not os.path.exists(args.model_path):
-        print(f"Không tìm thấy tệp checkpoint: {args.model_path}")
+        print(f"\n[THÔNG BÁO] Không tìm thấy tệp checkpoint: {args.model_path}")
         print("Vui lòng chạy script huấn luyện train.py trước.")
         return
 
@@ -68,45 +162,48 @@ def evaluate(args):
 
     num_classes = len(class_names)
     model = FruitVisionModel(num_classes=num_classes, pretrained=False)
-    model.load_state_dict(torch.load(args.model_path, map_location=args.device))
+    state_dict = torch.load(args.model_path, map_location=args.device)
+    model.load_state_dict(state_dict)
     model.to(args.device)
     model.eval()
 
-    total = 0
-    correct = 0
-    class_correct = {i: 0 for i in range(num_classes)}
-    class_total = {i: 0 for i in range(num_classes)}
+    y_true = []
+    y_pred = []
 
     with torch.no_grad():
         for inputs, labels in test_loader:
             inputs = inputs.to(args.device)
-            labels = labels.to(args.device)
             outputs = model(inputs)
             _, preds = torch.max(outputs, 1)
 
-            total += labels.size(0)
-            correct += (preds == labels).sum().item()
+            y_true.extend(labels.cpu().tolist())
+            y_pred.extend(preds.cpu().tolist())
 
-            for p, l in zip(preds, labels):
-                l_idx = l.item()
-                if p == l:
-                    class_correct[l_idx] += 1
-                class_total[l_idx] += 1
+    metrics = calculate_metrics(y_true, y_pred, num_classes, class_names)
 
-    overall_acc = (correct / total) * 100.0 if total > 0 else 0.0
-    print(f"\nKết quả đánh giá tổng thể:")
-    print(f"Tổng số ảnh kiểm thử: {total}")
-    print(f"Độ chính xác (Top-1 Accuracy): {overall_acc:.2f}%\n")
+    print(f"\nKẾT QUẢ ĐÁNH GIÁ CHUẨN:")
+    print(f"Tổng số ảnh kiểm thử: {metrics['total_samples']}")
+    print(f"Độ chính xác (Top-1 Accuracy): {metrics['overall_accuracy'] * 100:.2f}%")
+    print(f"Macro-F1 Score:                {metrics['macro_f1'] * 100:.2f}%")
+    print(f"Weighted-F1 Score:             {metrics['weighted_f1'] * 100:.2f}%\n")
 
-    print(f"{'Loại trái cây':<25} | {'Số mẫu':<10} | {'Chính xác':<12}")
-    print("-" * 52)
-    for idx, c_name in enumerate(class_names):
-        c_tot = class_total[idx]
-        c_cor = class_correct[idx]
-        acc_str = f"{(c_cor / c_tot) * 100:.1f}%" if c_tot > 0 else "N/A"
-        print(f"{c_name:<25} | {c_tot:<10} | {acc_str:<12}")
+    print(f"{'Loại trái cây':<22} | {'Mẫu':<6} | {'Precision':<10} | {'Recall':<10} | {'F1-Score':<10}")
+    print("-" * 68)
+    for c_name, p_data in metrics["per_class"].items():
+        print(
+            f"{c_name:<22} | "
+            f"{p_data['support']:<6} | "
+            f"{p_data['precision']*100:<9.1f}% | "
+            f"{p_data['recall']*100:<9.1f}% | "
+            f"{p_data['f1']*100:<9.1f}%"
+        )
 
+    if metrics["top_confused_pairs"]:
+        print(f"\nTOP CÁC CẶP LỚP HAY BỊ NHẦM LẪN NHẤT:")
+        for pair in metrics["top_confused_pairs"]:
+            print(f"  - Quả thật: '{pair['true_class']}' nhầm thành '{pair['pred_class']}' ({pair['count']} ảnh)")
 
-if __name__ == "__main__":
-    args = parse_args()
-    evaluate(args)
+    if args.output_json:
+        with open(args.output_json, "w", encoding="utf-8") as f:
+            json.dump(metrics, f, ensure_ascii=False, indent=2)
+        print(f"\nĐã lưu kết quả đánh giá chi tiết vào: {args.output_json}")
