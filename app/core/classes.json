@@ -1,0 +1,222 @@
+[
+  {
+    "class_id": "tao",
+    "display_name": "Táo",
+    "folder_name": "tao",
+    "aliases": ["apple", "tao_do", "tao_xanh"],
+    "profile": {
+      "ripeness_type": "pome",
+      "sweetness_default": "Ngọt thanh giòn",
+      "storage_tip": "Bảo quản trong ngăn mát tủ lạnh 4–8°C để giữ độ giòn và hạn chế mất nước."
+    }
+  },
+  {
+    "class_id": "cam_sanh",
+    "display_name": "Cam sành",
+    "folder_name": "cam_sanh",
+    "aliases": ["cam", "orange", "citrus"],
+    "profile": {
+      "ripeness_type": "citrus",
+      "sweetness_default": "Chua ngọt mọng nước",
+      "storage_tip": "Bảo quản nơi thoáng mát hoặc ngăn mát tủ lạnh; vắt lấy nước dùng tươi để giữ trọn vitamin C."
+    }
+  },
+  {
+    "class_id": "chuoi",
+    "display_name": "Chuối",
+    "folder_name": "chuoi",
+    "aliases": ["banana", "chuoi_tieu", "chuoi_su"],
+    "profile": {
+      "ripeness_type": "banana",
+      "sweetness_default": "Ngọt tự nhiên",
+      "storage_tip": "Để chuối ở nhiệt độ phòng nơi thoáng mát, không cho vào tủ lạnh khi vỏ còn xanh."
+    }
+  },
+  {
+    "class_id": "xoai",
+    "display_name": "Xoài cát Hòa Lộc",
+    "folder_name": "xoai",
+    "aliases": ["xoai_cat_hoa_loc", "mango", "xoai_chin", "xoai_xanh"],
+    "profile": {
+      "ripeness_type": "mango",
+      "sweetness_default": "Ngọt lịm thơm",
+      "storage_tip": "Gọt ăn trực tiếp hoặc bảo quản hộp kín trong tủ lạnh dùng trong 1–2 ngày."
+    }
+  },
+  {
+    "class_id": "nho",
+    "display_name": "Nho",
+    "folder_name": "nho",
+    "aliases": ["grape", "nho_den", "nho_xanh", "nho_do"],
+    "profile": {
+      "ripeness_type": "berry_cluster",
+      "sweetness_default": "Ngọt đậm",
+      "storage_tip": "Không rửa trước khi bảo quản; để hộp thoáng trong ngăn mát tủ lạnh."
+    }
+  },
+  {
+    "class_id": "dau_tay",
+    "display_name": "Dâu tây",
+    "folder_name": "dau_tay",
+    "aliases": ["strawberry", "dau"],
+    "profile": {
+      "ripeness_type": "berry",
+      "sweetness_default": "Chua ngọt dịu",
+      "storage_tip": "Không rửa trước khi bảo quản; lót khăn giấy vào hộp và giữ trong ngăn mát tủ lạnh."
+    }
+  },
+  {
+    "class_id": "dua_hau",
+    "display_name": "Dưa hấu",
+    "folder_name": "dua_hau",
+    "aliases": ["watermelon", "dua_do"],
+    "profile": {
+      "ripeness_type": "melon",
+      "sweetness_default": "Ngọt mát",
+      "storage_tip": "Bảo quản nơi thoáng mát; quả đã bổ nên bọc màng thực phẩm cất ngăn mát."
+    }
+  },
+  {
+    "class_id": "thanh_long",
+    "display_name": "Thanh long",
+    "folder_name": "thanh_long",
+    "aliases": ["dragon_fruit", "pitaya", "thanh_long_ruot_trang", "thanh_long_ruot_do"],
+    "profile": {
+      "ripeness_type": "tropical_cactus",
+      "sweetness_default": "Ngọt thanh mát",
+      "storage_tip": "Bảo quản nơi khô ráo, thoáng mát hoặc ngăn mát tủ lạnh từ 5–8°C."
+    }
+  },
+  {
+    "class_id": "dua",
+    "display_name": "Dứa",
+    "folder_name": "dua",
+    "aliases": ["pineapple", "thom", "khom"],
+    "profile": {
+      "ripeness_type": "pineapple",
+      "sweetness_default": "Chua ngọt đậm đà",
+      "storage_tip": "Dựng đứng quả ở nhiệt độ phòng; sau khi gọt vỏ nên dùng trong 24 giờ."
+    }
+  },
+  {
+    "class_id": "bo",
+    "display_name": "Bơ",
+    "folder_name": "bo",
+    "aliases": ["avocado", "bo_sap", "bo_034"],
+    "profile": {
+      "ripeness_type": "avocado",
+      "sweetness_default": "Béo ngậy (không ngọt)",
+      "storage_tip": "Chờ quả chín mềm tay ở nhiệt độ phòng, sau đó cất ngăn mát tủ lạnh."
+    }
+  },
+  {
+    "class_id": "sau_rieng",
+    "display_name": "Sầu riêng",
+    "folder_name": "sau_rieng",
+    "aliases": ["durian", "ri6", "monthong"],
+    "profile": {
+      "ripeness_type": "tropical_spiky",
+      "sweetness_default": "Ngọt đậm béo ngậy",
+      "storage_tip": "Để nơi thoáng khí đến khi nứt gai nhẹ; múi đã tách bọc kín cất tủ lạnh để tránh bay mùi."
+    }
+  },
+  {
+    "class_id": "mit",
+    "display_name": "Mít",
+    "folder_name": "mit",
+    "aliases": ["jackfruit", "mit_thai", "mit_to_nu"],
+    "profile": {
+      "ripeness_type": "tropical_large",
+      "sweetness_default": "Ngọt đậm thơm nồng",
+      "storage_tip": "Múi mít bảo quản trong hộp kín ở ngăn mát dùng trong 3–5 ngày."
+    }
+  },
+  {
+    "class_id": "du_du",
+    "display_name": "Đu đủ",
+    "folder_name": "du_du",
+    "aliases": ["papaya", "du_du_chin"],
+    "profile": {
+      "ripeness_type": "tropical_soft",
+      "sweetness_default": "Ngọt dịu mềm",
+      "storage_tip": "Quả chín vàng bảo quản ngăn mát tủ lạnh, dùng ngon nhất trong 2–3 ngày."
+    }
+  },
+  {
+    "class_id": "oi",
+    "display_name": "Ổi",
+    "folder_name": "oi",
+    "aliases": ["guava", "oi_nu_hoang", "oi_le"],
+    "profile": {
+      "ripeness_type": "guava",
+      "sweetness_default": "Ngọt thanh giòn",
+      "storage_tip": "Bọc túi xốp bảo quản ngăn mát tủ lạnh để giữ độ giòn và tránh thâm vỏ."
+    }
+  },
+  {
+    "class_id": "buoi",
+    "display_name": "Bưởi",
+    "folder_name": "buoi",
+    "aliases": ["pomelo", "buoi_da_xanh", "buoi_nam_roi"],
+    "profile": {
+      "ripeness_type": "citrus_large",
+      "sweetness_default": "Chua ngọt mọng nước",
+      "storage_tip": "Bôi chút vôi tôi vào cuống, để nơi thoáng mát có thể bảo quản cả tháng."
+    }
+  },
+  {
+    "class_id": "nhan",
+    "display_name": "Nhãn",
+    "folder_name": "nhan",
+    "aliases": ["longan", "nhan_xuong", "nhan_long"],
+    "profile": {
+      "ripeness_type": "tropical_cluster",
+      "sweetness_default": "Ngọt lịm thơm",
+      "storage_tip": "Cắt bớt cuống, để hộp thoáng cất ngăn mát tủ lạnh dùng trong 5–7 ngày."
+    }
+  },
+  {
+    "class_id": "vai",
+    "display_name": "Vải",
+    "folder_name": "vai",
+    "aliases": ["lychee", "vai_thieu"],
+    "profile": {
+      "ripeness_type": "tropical_cluster",
+      "sweetness_default": "Ngọt mọng nước",
+      "storage_tip": "Để trong túi giấy hoặc hộp đậy kín bảo quản ngăn mát 3–5°C."
+    }
+  },
+  {
+    "class_id": "mang_cau",
+    "display_name": "Mãng cầu",
+    "folder_name": "mang_cau",
+    "aliases": ["custard_apple", "soursop", "na", "mang_cau_ta"],
+    "profile": {
+      "ripeness_type": "custard_apple",
+      "sweetness_default": "Chua ngọt dịu dai",
+      "storage_tip": "Ủ nơi kín gió cho mở mắt chín mềm, sau đó để ngăn mát tủ lạnh."
+    }
+  },
+  {
+    "class_id": "chom_chom",
+    "display_name": "Chôm chôm",
+    "folder_name": "chom_chom",
+    "aliases": ["rambutan", "chom_chom_nhan", "chom_chom_thai"],
+    "profile": {
+      "ripeness_type": "tropical_hairy",
+      "sweetness_default": "Ngọt giòn tróc hạt",
+      "storage_tip": "Bảo quản ngăn mát tủ lạnh bọc trong túi nilon có đục lỗ thoát khí."
+    }
+  },
+  {
+    "class_id": "mang_cut",
+    "display_name": "Măng cụt",
+    "folder_name": "mang_cut",
+    "aliases": ["mangosteen"],
+    "profile": {
+      "ripeness_type": "mangosteen",
+      "sweetness_default": "Chua ngọt thanh tao",
+      "storage_tip": "Bảo quản nơi thoáng mát; tránh va đập mạnh làm chai vỏ quả."
+    }
+  }
+]
