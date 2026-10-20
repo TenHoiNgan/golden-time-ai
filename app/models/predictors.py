@@ -4,6 +4,7 @@ import torch
 import torch.nn.functional as F
 
 from app.core.config import settings
+from app.core.registry import fruit_registry
 from app.models.model_loader import (
     GOLDEN_TIME_FRUITS,
     IMAGENET_FRUIT_MAP,
@@ -13,15 +14,16 @@ from app.models.model_loader import (
 
 
 class FruitClassifier:
-    """Thực hiện suy luận nhận diện loại trái cây từ tensor ảnh."""
+    """Thực hiện suy luận nhận diện loại trái cây từ tensor ảnh hỗ trợ danh mục lớp động."""
 
     def __init__(self):
         self.loader = model_loader
+        self.registry = fruit_registry
 
     def predict(self, tensor: torch.Tensor, visual_features: dict) -> Tuple[str, float]:
         """
         Dự đoán loại trái cây và độ tin cậy.
-        Hỗ trợ cả mô hình fine-tuned chuyên biệt và mô hình nền tảng MobileNetV3 ImageNet.
+        Hỗ trợ cả mô hình fine-tuned chuyên biệt (đa lớp động) và mô hình nền tảng MobileNetV3 ImageNet.
         """
         if not self.loader.is_loaded:
             raise RuntimeError("Mô hình AI chưa được tải vào bộ nhớ.")
@@ -30,13 +32,15 @@ class FruitClassifier:
             outputs = self.loader.model(tensor)
             probabilities = F.softmax(outputs, dim=1)[0]
 
-        # Trường hợp 1: Mô hình đã được fine-tune trực tiếp trên danh mục Golden Time
+        # Trường hợp 1: Mô hình đã được fine-tune trực tiếp trên danh mục tùy biến
         if self.loader.is_custom:
             top_prob, top_idx = torch.topk(probabilities, 1)
             confidence = float(top_prob[0].item())
             idx = int(top_idx[0].item())
-            if 0 <= idx < len(GOLDEN_TIME_FRUITS) and confidence >= settings.CONFIDENCE_THRESHOLD:
-                return GOLDEN_TIME_FRUITS[idx], round(confidence, 4)
+            active_classes = self.loader.class_names
+            if 0 <= idx < len(active_classes) and confidence >= settings.CONFIDENCE_THRESHOLD:
+                return active_classes[idx], round(confidence, 4)
+            # Không đủ độ tin cậy hoặc ngoài phân phối
             return "Chưa nhận diện được", round(confidence, 4)
 
         # Trường hợp 2: Mô hình pretrained MobileNetV3 (ImageNet-1K)
@@ -160,6 +164,25 @@ class RipenessEstimator:
                 return "Còn ương (chưa đỏ hẳn)"
             return "Vừa chín tới"
 
+        # Tra cứu profile từ fruit_registry nếu có
+        fruit_cls = fruit_registry.match_any(fruit_name)
+        if fruit_cls and fruit_cls.profile:
+            rtype = fruit_cls.profile.get("ripeness_type")
+            if rtype == "avocado":
+                if dark_spots > 0.25:
+                    return "Quá chín"
+                if green > 0.40:
+                    return "Còn xanh"
+                return "Vừa chín tới"
+            elif rtype == "citrus_large":
+                if yellow_orange > 0.40:
+                    return "Chín vàng mọng nước"
+                return "Vừa chín tới"
+            elif rtype in ("tropical_cluster", "tropical_spiky", "tropical_large"):
+                if dark_spots > 0.25:
+                    return "Quá chín"
+                return "Vừa chín tới"
+
         # Mặc định theo mức độ điểm thâm và màu sắc chung
         if dark_spots > 0.25:
             return "Quá chín"
@@ -257,6 +280,11 @@ class FreshnessQualityEvaluator:
         if "Dâu" in fruit:
             return "Không rửa trước khi bảo quản; lót khăn giấy vào hộp và giữ trong ngăn mát tủ lạnh."
 
+        # Tra cứu gợi ý bảo quản từ profile registry cho các loại quả mở rộng
+        fruit_cls = fruit_registry.match_any(fruit)
+        if fruit_cls and fruit_cls.profile and fruit_cls.profile.get("storage_tip"):
+            return fruit_cls.profile["storage_tip"]
+
         return "Bảo quản ở nhiệt độ mát mẻ, tránh ánh nắng trực tiếp để hoa quả giữ được độ tươi lâu nhất."
 
 
@@ -266,7 +294,14 @@ freshness_evaluator = FreshnessQualityEvaluator()
 
 
 class SweetnessEstimator:
-    """Ước tính nhãn độ ngọt dựa trên chủng loại trái cây và mức độ chín."""
+    """
+    Ước tính nhãn độ ngọt dựa trên chủng loại trái cây và mức độ chín.
+
+    LƯU Ý KHOA HỌC:
+    Ước tính độ ngọt từ ảnh RGB là một phỏng đoán định tính (qualitative heuristic)
+    dựa trên chủng loại quả, màu sắc bề mặt và độ chín quan sát được. Đây KHÔNG PHẢI
+    là phép đo nồng độ đường Brix quang học trực tiếp từ khúc xạ kế (refractometer).
+    """
 
     def estimate(self, fruit_name: str, ripeness: str) -> Optional[str]:
         if fruit_name == "Chưa nhận diện được":
@@ -319,6 +354,11 @@ class SweetnessEstimator:
 
         if "Bơ" in fruit_name:
             return "Béo ngậy (không ngọt)"
+
+        # Tra cứu từ registry profile nếu là loại quả mới mở rộng
+        fruit_cls = fruit_registry.match_any(fruit_name)
+        if fruit_cls and fruit_cls.profile and fruit_cls.profile.get("sweetness_default"):
+            return fruit_cls.profile["sweetness_default"]
 
         return "Ngọt tự nhiên"
 
