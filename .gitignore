@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C environments
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Model checkpoints & large weights
+models/*.pt
+models/*.pth
+models/*.bin
+models/*.onnx
+!models/README.md
+
+# Datasets
+datasets/fruits/
+datasets/*.zip
+datasets/*.tar.gz
+!datasets/README.md
+
+# Environment variables
+.env
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
