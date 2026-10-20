@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 
 from app.core.config import settings
-from app.models.model_loader import GOLDEN_TIME_FRUITS, model_loader
+from app.models.model_loader import model_loader
 from app.schemas.analysis import HealthResponse
 
 router = APIRouter(tags=["Health"])
@@ -16,5 +16,5 @@ def health_check():
         modelLoaded=is_ready,
         modelName=settings.MODEL_NAME if not model_loader.is_custom else f"{settings.MODEL_NAME}-finetuned",
         device=str(model_loader.device),
-        supportedFruits=GOLDEN_TIME_FRUITS,
+        supportedFruits=model_loader.class_names,
     )
