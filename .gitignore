@@ -11,9 +11,13 @@ ENV/
 .venv
 
 # Model checkpoints & large weights
+models/**/*.pt
 models/*.pt
+models/**/*.pth
 models/*.pth
+models/**/*.bin
 models/*.bin
+models/**/*.onnx
 models/*.onnx
 !models/README.md
 
