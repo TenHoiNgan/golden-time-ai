@@ -15,10 +15,11 @@ if hasattr(sys.stdout, "reconfigure"):
 
 import torch
 from torch.utils.data import DataLoader
-from torchvision import datasets, transforms
+from torchvision import transforms
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from app.models.model_loader import FruitVisionModel
+from training.train import SelectedClassesDataset
 
 
 def parse_args():
@@ -140,13 +141,32 @@ def evaluate(args):
         print("Vui lòng chạy script huấn luyện train.py trước.")
         return
 
-    # Tải metadata nếu có
-    class_names = None
-    if os.path.exists(args.meta_path):
-        with open(args.meta_path, "r", encoding="utf-8") as f:
-            meta = json.load(f)
-            class_names = meta.get("classes")
+    # Tải metadata bắt buộc để xác định chính xác ánh xạ lớp
+    if not os.path.exists(args.meta_path):
+        raise FileNotFoundError(
+            f"Không tìm thấy metadata mô hình: {args.meta_path}. "
+            "Cần có metadata để xác định đúng thứ tự ánh xạ lớp (class mapping) sang tập test."
+        )
 
+    with open(args.meta_path, "r", encoding="utf-8") as f:
+        meta = json.load(f)
+
+    class_names = meta.get("classes")
+    class_ids = meta.get("class_ids")
+    folders = meta.get("folders")
+    class_to_idx = meta.get("class_to_idx")
+
+    if not class_names or not isinstance(class_names, list):
+        raise ValueError(f"Metadata tại {args.meta_path} không hợp lệ: thiếu trường 'classes'.")
+
+    # Tái tạo class_to_idx nếu checkpoint cũ chưa có trường này
+    if not class_to_idx:
+        ref_keys = folders or class_ids
+        if not ref_keys or len(ref_keys) != len(class_names):
+            raise ValueError(f"Metadata tại {args.meta_path} không thể suy diễn ánh xạ 'class_to_idx' an toàn.")
+        class_to_idx = {k: idx for idx, k in enumerate(ref_keys)}
+
+    num_classes = len(class_names)
     test_transform = transforms.Compose([
         transforms.Resize(256),
         transforms.CenterCrop(224),
@@ -154,13 +174,9 @@ def evaluate(args):
         transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),
     ])
 
-    test_dataset = datasets.ImageFolder(args.test_dir, transform=test_transform)
+    test_dataset = SelectedClassesDataset(args.test_dir, class_to_idx=class_to_idx, transform=test_transform)
     test_loader = DataLoader(test_dataset, batch_size=args.batch_size, shuffle=False)
 
-    if class_names is None:
-        class_names = test_dataset.classes
-
-    num_classes = len(class_names)
     model = FruitVisionModel(num_classes=num_classes, pretrained=False)
     state_dict = torch.load(args.model_path, map_location=args.device)
     model.load_state_dict(state_dict)
@@ -207,3 +223,8 @@ def evaluate(args):
         with open(args.output_json, "w", encoding="utf-8") as f:
             json.dump(metrics, f, ensure_ascii=False, indent=2)
         print(f"\nĐã lưu kết quả đánh giá chi tiết vào: {args.output_json}")
+
+
+if __name__ == "__main__":
+    args = parse_args()
+    evaluate(args)

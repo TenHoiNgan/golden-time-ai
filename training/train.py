@@ -9,22 +9,98 @@ import os
 import random
 import sys
 import time
-from typing import Dict, List, Tuple
+from typing import Dict, List, Optional, Tuple
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
     sys.stderr.reconfigure(encoding="utf-8")
 
+from PIL import Image
 import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader
-from torchvision import datasets, transforms
+from torchvision import transforms
 
 # Thêm đường dẫn app vào sys.path để tái sử dụng model definition và registry
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from app.core.registry import fruit_registry
 from app.models.model_loader import FruitVisionModel
+
+# 15 lớp baseline đạt chuẩn >= 200 ảnh theo registry (bảo đảm thứ tự registry)
+BASELINE_15_CLASSES: List[str] = [
+    "tao",
+    "cam_sanh",
+    "chuoi",
+    "xoai",
+    "nho",
+    "dau_tay",
+    "thanh_long",
+    "dua",
+    "bo",
+    "sau_rieng",
+    "mit",
+    "du_du",
+    "oi",
+    "vai",
+    "mang_cau",
+]
+
+VALID_IMAGE_EXTENSIONS = (".jpg", ".jpeg", ".png", ".webp", ".bmp")
+
+
+class SelectedClassesDataset(torch.utils.data.Dataset):
+    """
+    Dataset loader chỉ nạp các lớp được chọn tường minh, dùng chung một class_to_idx cố định.
+    Bỏ qua hoàn toàn các lớp ngoài danh sách (như 'man' hay các lớp chưa đủ dữ liệu),
+    tránh crash khi gặp thư mục rỗng và bảo đảm target index luôn trong phạm vi 0..N-1.
+    """
+
+    def __init__(
+        self,
+        root_dir: str,
+        class_to_idx: Dict[str, int],
+        transform=None,
+    ):
+        self.root_dir = os.path.abspath(root_dir)
+        self.class_to_idx = class_to_idx
+        self.transform = transform
+        self.classes = sorted(list(class_to_idx.keys()), key=lambda c: class_to_idx[c])
+        self.samples: List[Tuple[str, int]] = []
+
+        if not os.path.exists(self.root_dir):
+            raise FileNotFoundError(f"Thư mục không tồn tại: {self.root_dir}")
+
+        for folder_name, target_idx in self.class_to_idx.items():
+            folder_path = os.path.join(self.root_dir, folder_name)
+            if not os.path.exists(folder_path) or not os.path.isdir(folder_path):
+                raise FileNotFoundError(
+                    f"Thiếu thư mục lớp baseline bắt buộc: '{folder_name}' trong {self.root_dir}"
+                )
+
+            image_files = [
+                os.path.join(folder_path, f)
+                for f in os.listdir(folder_path)
+                if f.lower().endswith(VALID_IMAGE_EXTENSIONS)
+            ]
+            if len(image_files) == 0:
+                raise ValueError(
+                    f"Lớp baseline '{folder_name}' không có ảnh hợp lệ nào trong {self.root_dir}"
+                )
+
+            for img_path in sorted(image_files):
+                self.samples.append((img_path, target_idx))
+
+    def __len__(self) -> int:
+        return len(self.samples)
+
+    def __getitem__(self, idx: int) -> Tuple[torch.Tensor, int]:
+        img_path, target = self.samples[idx]
+        with Image.open(img_path) as img:
+            image = img.convert("RGB")
+        if self.transform is not None:
+            image = self.transform(image)
+        return image, target
 
 
 def set_seed(seed: int = 42):
@@ -46,13 +122,25 @@ def parse_args():
     parser.add_argument("--patience", type=int, default=5, help="Số epoch chờ trước khi dừng sớm (early stopping)")
     parser.add_argument("--freeze-backbone-epochs", type=int, default=0, help="Số epoch đóng băng backbone ban đầu")
     parser.add_argument("--device", type=str, default="cuda" if torch.cuda.is_available() else "cpu", help="Thiết bị tính toán (cpu / cuda)")
+    parser.add_argument(
+        "--classes",
+        nargs="+",
+        default=BASELINE_15_CLASSES,
+        help="Danh sách class_id cần huấn luyện (mặc định: 15 lớp baseline)",
+    )
     return parser.parse_args()
 
 
-def get_data_loaders(data_dir: str, batch_size: int) -> Tuple[Dict[str, DataLoader], Dict[str, int], List[str], List[str], List[str]]:
+def get_data_loaders(
+    data_dir: str,
+    batch_size: int,
+    selected_classes: Optional[List[str]] = None,
+) -> Tuple[Dict[str, DataLoader], Dict[str, int], List[str], List[str], List[str], Dict[str, int]]:
     """
     Khởi tạo data transformations và loaders cho tập train và val.
-    Ánh xạ thư mục theo đúng fruit_registry để đảm bảo thứ tự index chính xác.
+    Ánh xạ thư mục theo đúng fruit_registry và class_to_idx cố định.
+    Chỉ nạp các lớp trong selected_classes (mặc định: BASELINE_15_CLASSES),
+    bỏ qua các thư mục khác (như 'man' hoặc các lớp không thuộc baseline).
     """
     train_dir = os.path.join(data_dir, "train")
     val_dir = os.path.join(data_dir, "val")
@@ -63,12 +151,32 @@ def get_data_loaders(data_dir: str, batch_size: int) -> Tuple[Dict[str, DataLoad
             f"Vui lòng tham khảo hướng dẫn cấu trúc dataset tại datasets/README.md."
         )
 
-    # 1. Kiểm tra cấu trúc thư mục đối chiếu với registry
-    matched, missing, unexpected = fruit_registry.validate_dataset_structure(train_dir)
-    if unexpected:
-        print(f"[CẢNH BÁO REGISTRY] Phát hiện thư mục không có trong registry: {unexpected}")
-    if missing:
-        print(f"[THÔNG TIN REGISTRY] {len(missing)} lớp chưa có dữ liệu trong train: {missing[:5]}...")
+    # 1. Xác định danh sách class mục tiêu
+    target_classes = selected_classes if selected_classes is not None else BASELINE_15_CLASSES
+
+    # 2. Xây dựng mapping nhất quán từ registry (giữ đúng thứ tự registry)
+    ordered_folders: List[str] = []
+    display_names: List[str] = []
+    class_ids: List[str] = []
+    class_to_idx: Dict[str, int] = {}
+
+    for c in target_classes:
+        fruit_cls = fruit_registry.get_by_id(c) or fruit_registry.get_by_folder(c)
+        if fruit_cls:
+            f_name = fruit_cls.folder_name
+            d_name = fruit_cls.display_name
+            c_id = fruit_cls.class_id
+        else:
+            f_name = c
+            d_name = c
+            c_id = c
+
+        if f_name not in class_to_idx:
+            idx = len(class_to_idx)
+            class_to_idx[f_name] = idx
+            ordered_folders.append(f_name)
+            display_names.append(d_name)
+            class_ids.append(c_id)
 
     data_transforms = {
         "train": transforms.Compose([
@@ -88,25 +196,9 @@ def get_data_loaders(data_dir: str, batch_size: int) -> Tuple[Dict[str, DataLoad
     }
 
     image_datasets = {
-        "train": datasets.ImageFolder(train_dir, data_transforms["train"]),
-        "val": datasets.ImageFolder(val_dir, data_transforms["val"]),
+        "train": SelectedClassesDataset(train_dir, class_to_idx, data_transforms["train"]),
+        "val": SelectedClassesDataset(val_dir, class_to_idx, data_transforms["val"]),
     }
-
-    raw_folders = image_datasets["train"].classes
-    if len(raw_folders) == 0:
-        raise ValueError(f"Thư mục {train_dir} không chứa thư mục con lớp nào.")
-
-    # Ánh xạ từ folder name sang display_name và class_id chính xác
-    display_names = []
-    class_ids = []
-    for f in raw_folders:
-        fruit_cls = fruit_registry.get_by_folder(f)
-        if fruit_cls:
-            display_names.append(fruit_cls.display_name)
-            class_ids.append(fruit_cls.class_id)
-        else:
-            display_names.append(f)
-            class_ids.append(f)
 
     dataloaders = {
         x: DataLoader(image_datasets[x], batch_size=batch_size, shuffle=(x == "train"), num_workers=2)
@@ -114,7 +206,7 @@ def get_data_loaders(data_dir: str, batch_size: int) -> Tuple[Dict[str, DataLoad
     }
     dataset_sizes = {x: len(image_datasets[x]) for x in ["train", "val"]}
 
-    return dataloaders, dataset_sizes, raw_folders, display_names, class_ids
+    return dataloaders, dataset_sizes, ordered_folders, display_names, class_ids, class_to_idx
 
 
 def train_model(args):
@@ -128,7 +220,9 @@ def train_model(args):
     os.makedirs(args.output_dir, exist_ok=True)
 
     try:
-        dataloaders, dataset_sizes, raw_folders, display_names, class_ids = get_data_loaders(args.data_dir, args.batch_size)
+        dataloaders, dataset_sizes, raw_folders, display_names, class_ids, class_to_idx = get_data_loaders(
+            args.data_dir, args.batch_size, selected_classes=args.classes
+        )
         num_classes = len(raw_folders)
         print(f"Tập train: {dataset_sizes['train']} ảnh | Tập val: {dataset_sizes['val']} ảnh")
         print(f"Các lớp nhận diện ({num_classes}): {display_names}")
@@ -244,6 +338,7 @@ def train_model(args):
             "classes": display_names,
             "class_ids": class_ids,
             "folders": raw_folders,
+            "class_to_idx": class_to_idx,
             "best_val_accuracy": float(best_acc),
             "trained_at": time.strftime("%Y-%m-%d %H:%M:%S"),
             "base_model": "mobilenet_v3_small",
@@ -251,6 +346,8 @@ def train_model(args):
             "batch_size": args.batch_size,
             "lr": args.lr,
             "epochs": args.epochs,
+            "dataset_split_plan": "datasets/durian_split_plan.json",
+            "dataset_manifest_p4": "datasets/manifest_phase4_sau_rieng.json",
         }
         with open(meta_path, "w", encoding="utf-8") as f:
             json.dump(metadata, f, ensure_ascii=False, indent=2)
