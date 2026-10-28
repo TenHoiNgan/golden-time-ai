@@ -1,0 +1,187 @@
+{
+  "root": "Downloads/dataset",
+  "splits": {
+    "Test": {
+      "categories": {
+        "freshapples": {
+          "count": 791,
+          "valid_images": 791,
+          "size_mb": 80.61
+        },
+        "freshbanana": {
+          "count": 892,
+          "valid_images": 892,
+          "size_mb": 108.65
+        },
+        "freshcucumber": {
+          "count": 279,
+          "valid_images": 279,
+          "size_mb": 16.27
+        },
+        "freshokra": {
+          "count": 370,
+          "valid_images": 370,
+          "size_mb": 22.74
+        },
+        "freshoranges": {
+          "count": 388,
+          "valid_images": 388,
+          "size_mb": 47.36
+        },
+        "freshpatato": {
+          "count": 270,
+          "valid_images": 270,
+          "size_mb": 15.66
+        },
+        "freshtamto": {
+          "count": 255,
+          "valid_images": 255,
+          "size_mb": 12.48
+        },
+        "rottenapples": {
+          "count": 988,
+          "valid_images": 988,
+          "size_mb": 128.72
+        },
+        "rottenbanana": {
+          "count": 900,
+          "valid_images": 900,
+          "size_mb": 151.18
+        },
+        "rottencucumber": {
+          "count": 255,
+          "valid_images": 255,
+          "size_mb": 15.19
+        },
+        "rottenokra": {
+          "count": 224,
+          "valid_images": 224,
+          "size_mb": 12.92
+        },
+        "rottenoranges": {
+          "count": 403,
+          "valid_images": 403,
+          "size_mb": 63.4
+        },
+        "rottenpatato": {
+          "count": 370,
+          "valid_images": 370,
+          "size_mb": 21.84
+        },
+        "rottentamto": {
+          "count": 353,
+          "valid_images": 353,
+          "size_mb": 5.24
+        }
+      },
+      "total_images": 6738,
+      "total_bytes": 736348786
+    },
+    "Train": {
+      "categories": {
+        "freshapples": {
+          "count": 2424,
+          "valid_images": 2424,
+          "size_mb": 267.07
+        },
+        "freshbanana": {
+          "count": 2468,
+          "valid_images": 2468,
+          "size_mb": 294.4
+        },
+        "freshbittergroud": {
+          "count": 327,
+          "valid_images": 327,
+          "size_mb": 7.45
+        },
+        "freshcapsicum": {
+          "count": 990,
+          "valid_images": 990,
+          "size_mb": 22.5
+        },
+        "freshcucumber": {
+          "count": 496,
+          "valid_images": 496,
+          "size_mb": 27.97
+        },
+        "freshokra": {
+          "count": 635,
+          "valid_images": 635,
+          "size_mb": 38.29
+        },
+        "freshoranges": {
+          "count": 1466,
+          "valid_images": 1466,
+          "size_mb": 178.31
+        },
+        "freshpotato": {
+          "count": 536,
+          "valid_images": 536,
+          "size_mb": 30.2
+        },
+        "freshtomato": {
+          "count": 1858,
+          "valid_images": 1858,
+          "size_mb": 77.31
+        },
+        "rottenapples": {
+          "count": 3248,
+          "valid_images": 3248,
+          "size_mb": 428.5
+        },
+        "rottenbanana": {
+          "count": 2932,
+          "valid_images": 2932,
+          "size_mb": 476.71
+        },
+        "rottenbittergroud": {
+          "count": 357,
+          "valid_images": 357,
+          "size_mb": 8.36
+        },
+        "rottencapsicum": {
+          "count": 901,
+          "valid_images": 901,
+          "size_mb": 19.84
+        },
+        "rottencucumber": {
+          "count": 421,
+          "valid_images": 421,
+          "size_mb": 23.97
+        },
+        "rottenokra": {
+          "count": 338,
+          "valid_images": 338,
+          "size_mb": 19.83
+        },
+        "rottenoranges": {
+          "count": 1595,
+          "valid_images": 1595,
+          "size_mb": 249.04
+        },
+        "rottenpotato": {
+          "count": 802,
+          "valid_images": 802,
+          "size_mb": 46.39
+        },
+        "rottentomato": {
+          "count": 1825,
+          "valid_images": 1825,
+          "size_mb": 33.13
+        }
+      },
+      "total_images": 23619,
+      "total_bytes": 2358521498
+    }
+  },
+  "total_images": 30357,
+  "total_bytes": 3094870284,
+  "corrupted_images": [],
+  "extensions": {
+    ".png": 25819,
+    ".jpg": 4538
+  },
+  "duplicate_hashes_internal": 3248,
+  "train_test_overlap_hashes": 4039,
+  "agml_cache_exists": true
+}

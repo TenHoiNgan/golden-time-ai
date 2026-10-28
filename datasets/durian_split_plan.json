@@ -1,0 +1,2323 @@
+{
+  "train": [
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-3_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-3_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-3"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-3_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-3_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-3"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-3_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-3_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-3"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-3_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-3_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-3"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-3_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-3_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-3"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-3_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-3_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-3"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-3_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-3_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-3"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-3_05_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-3_05_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-3"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-01_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-01_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-01"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-01_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-01_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-01"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-01_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-01_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-01"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-01_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-01_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-01"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-01_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-01_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-01"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-01_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-01_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-01"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-01_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-01_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-01"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-01_05_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-01_05_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-01"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-02_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-02_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-02"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-02_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-02_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-02"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-02_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-02_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-02"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-02_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-02_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-02"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-02_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-02_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-02"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-02_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-02_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-02"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-02_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-02_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-02"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-02_05_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-02_05_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-02"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-03_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-03_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-03"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-03_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-03_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-03"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-03_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-03_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-03"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-03_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-03_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-03"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-03_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-03_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-03"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-03_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-03_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-03"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-03_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-03_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-03"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-03_05_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-03_05_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-03"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-04_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-04_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-04"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-04_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-04_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-04"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-04_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-04_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-04"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-04_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-04_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-04"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-04_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-04_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-04"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-04_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-04_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-04"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-04_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-04_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-04"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-04_05_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-04_05_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-04"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-05"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-05"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-05"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-05_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-05_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-05"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-05_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-05_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-05"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-05_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-05_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-05"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-05_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-05_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-05"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-05_05_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-05_05_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-05"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-02_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-02_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-02"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-02_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-02_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-02"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-02_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-02_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-02"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-02_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-02_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-02"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-02_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-02_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-02"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-02_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-02_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-02"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-02_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-02_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-02"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-02_05_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-02_05_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-02"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D1_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D1_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D1"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D1_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D1_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D1"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D1_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D1_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D1"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D1_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D1_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D1"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D1_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D1_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D1"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D1_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D1_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D1"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D1_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D1_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D1"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D1_05_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D1_05_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D1"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-07_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-07_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-07"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-07_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-07_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-07"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-07_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-07_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-07"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-07_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-07_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-07"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-07_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-07_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-07"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-07_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-07_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-07"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-07_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-07_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-07"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-07_05_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-07_05_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-07"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-10_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-10_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-10"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-10_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-10_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-10"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-10_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-10_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-10"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-10_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-10_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-10"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-10_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-10_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-10"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-10_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-10_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-10"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-10_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-10_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-10"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-10_05_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-10_05_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-10"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-12_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-12_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-12"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-12_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-12_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-12"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-12_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-12_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-12"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-12_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-12_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-12"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-12_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-12_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-12"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-12_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-12_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-12"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-12_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-12_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-12"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-12_05_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-12_05_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-12"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-10_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-10_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-10"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-10_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-10_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-10"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-10_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-10_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-10"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-10_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-10_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-10"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-10_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-10_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-10"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-10_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-10_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-10"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-10_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-10_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-10"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-10_05_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-10_05_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-10"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-5_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-5_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-5"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-5_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-5_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-5"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-5_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-5_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-5"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-5_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-5_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-5"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-5_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-5_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-5"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-5_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-5_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-5"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-5_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-5_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-5"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-5_05_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-5_05_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-5"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-6_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-6_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-6"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-6_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-6_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-6"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-6_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-6_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-6"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-6_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-6_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-6"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-6_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-6_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-6"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-6_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-6_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-6"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-6_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-6_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-6"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-6_05_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-6_05_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-6"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-12_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-12_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-12"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-12_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-12_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-12"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-12_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-12_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-12"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-12_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-12_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-12"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-12_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-12_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-12"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-12_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-12_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-12"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-12_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-12_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-12"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-12_05_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-12_05_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-12"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-14_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-14_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-14"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-14_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-14_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-14"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-14_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-14_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-14"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-14_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-14_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-14"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-14_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-14_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-14"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-14_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-14_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-14"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-14_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-14_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-14"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-14_05_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-14_05_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-14"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-UNRIPE_7D-14_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-14_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-14"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-UNRIPE_7D-14_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-14_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-14"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-UNRIPE_7D-14_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-14_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-14"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-UNRIPE_7D-14_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-14_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-14"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-UNRIPE_7D-14_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-14_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-14"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-UNRIPE_7D-14_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-14_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-14"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-UNRIPE_7D-14_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-14_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-14"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-UNRIPE_7D-14_05_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-14_05_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-14"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-UNRIPE_7D-8_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-8_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-8"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-UNRIPE_7D-8_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-8_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-8"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-UNRIPE_7D-8_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-8_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-8"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-UNRIPE_7D-8_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-8_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-8"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-UNRIPE_7D-8_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-8_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-8"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-UNRIPE_7D-8_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-8_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-8"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-UNRIPE_7D-8_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-8_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-8"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-UNRIPE_7D-8_05_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-8_05_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-8"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS3-MIDRIPE_5D-8_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-MIDRIPE_5D-8_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-MIDRIPE_5D-8"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS3-MIDRIPE_5D-8_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-MIDRIPE_5D-8_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-MIDRIPE_5D-8"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS3-MIDRIPE_5D-8_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-MIDRIPE_5D-8_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-MIDRIPE_5D-8"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS3-MIDRIPE_5D-8_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-MIDRIPE_5D-8_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-MIDRIPE_5D-8"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS3-MIDRIPE_5D-8_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-MIDRIPE_5D-8_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-MIDRIPE_5D-8"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS3-MIDRIPE_5D-8_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-MIDRIPE_5D-8_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-MIDRIPE_5D-8"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS3-MIDRIPE_5D-8_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-MIDRIPE_5D-8_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-MIDRIPE_5D-8"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS3-MIDRIPE_5D-8_05_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-MIDRIPE_5D-8_05_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-MIDRIPE_5D-8"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS1-MIDRIPE_3D-7_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS1-MIDRIPE_3D-7_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS1-MIDRIPE_3D-7"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS1-MIDRIPE_3D-7_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS1-MIDRIPE_3D-7_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS1-MIDRIPE_3D-7"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS1-MIDRIPE_3D-7_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS1-MIDRIPE_3D-7_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS1-MIDRIPE_3D-7"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS1-MIDRIPE_3D-7_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS1-MIDRIPE_3D-7_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS1-MIDRIPE_3D-7"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS1-MIDRIPE_3D-7_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS1-MIDRIPE_3D-7_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS1-MIDRIPE_3D-7"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS1-MIDRIPE_3D-7_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS1-MIDRIPE_3D-7_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS1-MIDRIPE_3D-7"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS1-MIDRIPE_3D-7_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS1-MIDRIPE_3D-7_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS1-MIDRIPE_3D-7"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS1-UNRIPE_7D10_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS1-UNRIPE_7D10_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS1-UNRIPE_7D10"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS1-UNRIPE_7D10_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS1-UNRIPE_7D10_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS1-UNRIPE_7D10"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS1-UNRIPE_7D10_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS1-UNRIPE_7D10_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS1-UNRIPE_7D10"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS1-UNRIPE_7D10_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS1-UNRIPE_7D10_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS1-UNRIPE_7D10"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS1-UNRIPE_7D10_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS1-UNRIPE_7D10_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS1-UNRIPE_7D10"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS1-UNRIPE_7D10_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS1-UNRIPE_7D10_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS1-UNRIPE_7D10"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS1-UNRIPE_7D10_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS1-UNRIPE_7D10_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS1-UNRIPE_7D10"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-3_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-3_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-3"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-3_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-3_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-3"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-3_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-3_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-3"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-3_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-3_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-3"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-3_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-3_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-3"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-3_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-3_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-3"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-3_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-3_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-3"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-4_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-4_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-4"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-4_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-4_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-4"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-4_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-4_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-4"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-4_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-4_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-4"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-4_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-4_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-4"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-4_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-4_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-4"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-4_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-4_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-4"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-10_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-10_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-10"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-10_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-10_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-10"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-10_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-10_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-10"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-10_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-10_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-10"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-10_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-10_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-10"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-10_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-10_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-10"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-10_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-10_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-10"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-13_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-13_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-13"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-13_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-13_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-13"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-13_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-13_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-13"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-13_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-13_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-13"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-13_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-13_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-13"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-13_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-13_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-13"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-13_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-13_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-13"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-16_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-16_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-16"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-16_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-16_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-16"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-16_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-16_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-16"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-16_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-16_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-16"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-16_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-16_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-16"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-16_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-16_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-16"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-16_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-16_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-16"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-4_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-4_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-4"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-4_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-4_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-4"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-4_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-4_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-4"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-4_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-4_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-4"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-4_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-4_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-4"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-4_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-4_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-4"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-4_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-4_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-4"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-6_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-6_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-6"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-6_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-6_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-6"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-6_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-6_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-6"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-6_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-6_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-6"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-6_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-6_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-6"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-6_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-6_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-6"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-6_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-6_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-6"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-06_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-06_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-06"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-06_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-06_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-06"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-06_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-06_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-06"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-06_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-06_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-06"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-06_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-06_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-06"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-06_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-06_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-06"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-NOLABEL-06_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-NOLABEL-06_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-NOLABEL-06"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-11_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-11_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-11"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-11_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-11_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-11"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-11_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-11_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-11"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-11_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-11_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-11"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-11_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-11_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-11"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-11_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-11_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-11"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-11_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-11_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-11"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-12_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-12_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-12"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-12_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-12_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-12"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-12_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-12_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-12"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-12_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-12_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-12"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-12_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-12_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-12"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-12_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-12_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-12"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-12_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-12_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-12"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-13_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-13_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-13"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-13_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-13_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-13"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-13_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-13_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-13"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-13_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-13_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-13"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-13_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-13_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-13"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-13_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-13_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-13"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-13_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-13_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-13"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-16_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-16_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-16"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-16_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-16_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-16"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-16_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-16_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-16"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-16_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-16_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-16"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-16_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-16_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-16"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-16_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-16_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-16"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-16_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-16_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-16"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-5_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-5_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-5"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-5_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-5_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-5"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-5_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-5_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-5"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-5_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-5_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-5"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-5_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-5_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-5"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-5_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-5_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-5"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-UNRIPE_7D-5_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-5_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-5"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-MIDRIPE_3D-9_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-MIDRIPE_3D-9_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-MIDRIPE_3D-9"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-MIDRIPE_3D-9_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-MIDRIPE_3D-9_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-MIDRIPE_3D-9"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-MIDRIPE_3D-9_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-MIDRIPE_3D-9_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-MIDRIPE_3D-9"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-MIDRIPE_3D-9_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-MIDRIPE_3D-9_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-MIDRIPE_3D-9"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-MIDRIPE_3D-9_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-MIDRIPE_3D-9_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-MIDRIPE_3D-9"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-MIDRIPE_3D-9_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-MIDRIPE_3D-9_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-MIDRIPE_3D-9"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-MIDRIPE_3D-9_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-MIDRIPE_3D-9_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-MIDRIPE_3D-9"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-11_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-11_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-11"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-11_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-11_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-11"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-11_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-11_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-11"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-11_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-11_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-11"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-11_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-11_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-11"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-11_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-11_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-11"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-11_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-11_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-11"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-UNRIPE_7D-9_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-UNRIPE_7D-9_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-UNRIPE_7D-9"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-UNRIPE_7D-9_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-UNRIPE_7D-9_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-UNRIPE_7D-9"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-UNRIPE_7D-9_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-UNRIPE_7D-9_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-UNRIPE_7D-9"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-UNRIPE_7D-9_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-UNRIPE_7D-9_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-UNRIPE_7D-9"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-UNRIPE_7D-9_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-UNRIPE_7D-9_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-UNRIPE_7D-9"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-UNRIPE_7D-9_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-UNRIPE_7D-9_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-UNRIPE_7D-9"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-UNRIPE_7D-9_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-UNRIPE_7D-9_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-UNRIPE_7D-9"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-1_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-1_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-1"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-1_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-1_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-1"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-1_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-1_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-1"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-1_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-1_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-1"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-1_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-1_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-1"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-1_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-1_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-1"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-1_05_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-1_05_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-1"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-2_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-2_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-2"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-2_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-2_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-2"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-2_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-2_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-2"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-2_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-2_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-2"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-2_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-2_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-2"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-2_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-2_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-2"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-2_05_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-2_05_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-2"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-9_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-9_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-9"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-9_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-9_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-9"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-9_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-9_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-9"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-9_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-9_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-9"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-9_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-9_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-9"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-9_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-9_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-9"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-9_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-9_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-9"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-1_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-1_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-1"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-1_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-1_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-1"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-1_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-1_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-1"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-1_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-1_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-1"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-1_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-1_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-1"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-1_05_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-1_05_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-1"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-UNRIPE_7D-4_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-4_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-4"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-UNRIPE_7D-4_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-4_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-4"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-UNRIPE_7D-4_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-4_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-4"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-UNRIPE_7D-4_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-4_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-4"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-UNRIPE_7D-4_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-4_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-4"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-UNRIPE_7D-4_05_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-4_05_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-4"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-13_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-13_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-13"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-13_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-13_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-13"
+    }
+  ],
+  "val": [
+    {
+      "path": "Durian Samples/24 October 2023/24-10-2023_DSLR_CLASS3_01.JPG",
+      "filename": "24-10-2023_DSLR_CLASS3_01.JPG",
+      "specimen_id": "24-10-2023_CLASS3"
+    },
+    {
+      "path": "Durian Samples/24 October 2023/24-10-2023_DSLR_CLASS3_02.JPG",
+      "filename": "24-10-2023_DSLR_CLASS3_02.JPG",
+      "specimen_id": "24-10-2023_CLASS3"
+    },
+    {
+      "path": "Durian Samples/24 October 2023/24-10-2023_DSLR_CLASS3_03.JPG",
+      "filename": "24-10-2023_DSLR_CLASS3_03.JPG",
+      "specimen_id": "24-10-2023_CLASS3"
+    },
+    {
+      "path": "Durian Samples/24 October 2023/24-10-2023_DSLR_CLASS3_04.JPG",
+      "filename": "24-10-2023_DSLR_CLASS3_04.JPG",
+      "specimen_id": "24-10-2023_CLASS3"
+    },
+    {
+      "path": "Durian Samples/24 October 2023/24-10-2023_DSLR_CLASS3_05.JPG",
+      "filename": "24-10-2023_DSLR_CLASS3_05.JPG",
+      "specimen_id": "24-10-2023_CLASS3"
+    },
+    {
+      "path": "Durian Samples/24 October 2023/24-10-2023_DSLR_CLASS3_06.JPG",
+      "filename": "24-10-2023_DSLR_CLASS3_06.JPG",
+      "specimen_id": "24-10-2023_CLASS3"
+    },
+    {
+      "path": "Durian Samples/24 October 2023/24-10-2023_DSLR_CLASS3_07.JPG",
+      "filename": "24-10-2023_DSLR_CLASS3_07.JPG",
+      "specimen_id": "24-10-2023_CLASS3"
+    },
+    {
+      "path": "Durian Samples/24 October 2023/24-10-2023_DSLR_CLASS3_09.JPG",
+      "filename": "24-10-2023_DSLR_CLASS3_09.JPG",
+      "specimen_id": "24-10-2023_CLASS3"
+    },
+    {
+      "path": "Durian Samples/24 October 2023/24-10-2023_DSLR_CLASS3_10.JPG",
+      "filename": "24-10-2023_DSLR_CLASS3_10.JPG",
+      "specimen_id": "24-10-2023_CLASS3"
+    },
+    {
+      "path": "Durian Samples/24 October 2023/24-10-2023_DSLR_CLASS3_11.JPG",
+      "filename": "24-10-2023_DSLR_CLASS3_11.JPG",
+      "specimen_id": "24-10-2023_CLASS3"
+    },
+    {
+      "path": "Durian Samples/24 October 2023/24-10-2023_DSLR_CLASS3_12.JPG",
+      "filename": "24-10-2023_DSLR_CLASS3_12.JPG",
+      "specimen_id": "24-10-2023_CLASS3"
+    },
+    {
+      "path": "Durian Samples/24 October 2023/24-10-2023_DSLR_CLASS3_13.JPG",
+      "filename": "24-10-2023_DSLR_CLASS3_13.JPG",
+      "specimen_id": "24-10-2023_CLASS3"
+    },
+    {
+      "path": "Durian Samples/24 October 2023/24-10-2023_DSLR_CLASS3_14.JPG",
+      "filename": "24-10-2023_DSLR_CLASS3_14.JPG",
+      "specimen_id": "24-10-2023_CLASS3"
+    },
+    {
+      "path": "Durian Samples/24 October 2023/24-10-2023_DSLR_CLASS3_15.JPG",
+      "filename": "24-10-2023_DSLR_CLASS3_15.JPG",
+      "specimen_id": "24-10-2023_CLASS3"
+    },
+    {
+      "path": "Durian Samples/24 October 2023/24-10-2023_DSLR_CLASS3_16.JPG",
+      "filename": "24-10-2023_DSLR_CLASS3_16.JPG",
+      "specimen_id": "24-10-2023_CLASS3"
+    },
+    {
+      "path": "Durian Samples/24 October 2023/24-10-2023_DSLR_CLASS3_17.JPG",
+      "filename": "24-10-2023_DSLR_CLASS3_17.JPG",
+      "specimen_id": "24-10-2023_CLASS3"
+    },
+    {
+      "path": "Durian Samples/24 October 2023/24-10-2023_DSLR_CLASS3_18.JPG",
+      "filename": "24-10-2023_DSLR_CLASS3_18.JPG",
+      "specimen_id": "24-10-2023_CLASS3"
+    },
+    {
+      "path": "Durian Samples/24 October 2023/24-10-2023_DSLR_CLASS3_19.JPG",
+      "filename": "24-10-2023_DSLR_CLASS3_19.JPG",
+      "specimen_id": "24-10-2023_CLASS3"
+    },
+    {
+      "path": "Durian Samples/24 October 2023/24-10-2023_DSLR_CLASS3_22.JPG",
+      "filename": "24-10-2023_DSLR_CLASS3_22.JPG",
+      "specimen_id": "24-10-2023_CLASS3"
+    },
+    {
+      "path": "Durian Samples/24 October 2023/24-10-2023_DSLR_CLASS3_23.JPG",
+      "filename": "24-10-2023_DSLR_CLASS3_23.JPG",
+      "specimen_id": "24-10-2023_CLASS3"
+    },
+    {
+      "path": "Durian Samples/24 October 2023/24-10-2023_DSLR_CLASS3_24.JPG",
+      "filename": "24-10-2023_DSLR_CLASS3_24.JPG",
+      "specimen_id": "24-10-2023_CLASS3"
+    },
+    {
+      "path": "Durian Samples/24 October 2023/24-10-2023_DSLR_CLASS3_25.JPG",
+      "filename": "24-10-2023_DSLR_CLASS3_25.JPG",
+      "specimen_id": "24-10-2023_CLASS3"
+    },
+    {
+      "path": "Durian Samples/24 October 2023/24-10-2023_DSLR_CLASS3_26.JPG",
+      "filename": "24-10-2023_DSLR_CLASS3_26.JPG",
+      "specimen_id": "24-10-2023_CLASS3"
+    },
+    {
+      "path": "Durian Samples/24 October 2023/24-10-2023_DSLR_CLASS3_27.JPG",
+      "filename": "24-10-2023_DSLR_CLASS3_27.JPG",
+      "specimen_id": "24-10-2023_CLASS3"
+    },
+    {
+      "path": "Durian Samples/24 October 2023/24-10-2023_DSLR_CLASS3_28.JPG",
+      "filename": "24-10-2023_DSLR_CLASS3_28.JPG",
+      "specimen_id": "24-10-2023_CLASS3"
+    },
+    {
+      "path": "Durian Samples/24 October 2023/24-10-2023_DSLR_CLASS3_29.JPG",
+      "filename": "24-10-2023_DSLR_CLASS3_29.JPG",
+      "specimen_id": "24-10-2023_CLASS3"
+    },
+    {
+      "path": "Durian Samples/24 October 2023/24-10-2023_DSLR_CLASS3_30.JPG",
+      "filename": "24-10-2023_DSLR_CLASS3_30.JPG",
+      "specimen_id": "24-10-2023_CLASS3"
+    },
+    {
+      "path": "Durian Samples/24 October 2023/24-10-2023_DSLR_CLASS3_31.JPG",
+      "filename": "24-10-2023_DSLR_CLASS3_31.JPG",
+      "specimen_id": "24-10-2023_CLASS3"
+    },
+    {
+      "path": "Durian Samples/24 October 2023/24-10-2023_DSLR_CLASS3_32.JPG",
+      "filename": "24-10-2023_DSLR_CLASS3_32.JPG",
+      "specimen_id": "24-10-2023_CLASS3"
+    },
+    {
+      "path": "Durian Samples/24 October 2023/24-10-2023_DSLR_CLASS3_33.JPG",
+      "filename": "24-10-2023_DSLR_CLASS3_33.JPG",
+      "specimen_id": "24-10-2023_CLASS3"
+    },
+    {
+      "path": "Durian Samples/24 October 2023/24-10-2023_DSLR_CLASS3_34.JPG",
+      "filename": "24-10-2023_DSLR_CLASS3_34.JPG",
+      "specimen_id": "24-10-2023_CLASS3"
+    },
+    {
+      "path": "Durian Samples/24 October 2023/24-10-2023_DSLR_CLASS3_35.JPG",
+      "filename": "24-10-2023_DSLR_CLASS3_35.JPG",
+      "specimen_id": "24-10-2023_CLASS3"
+    },
+    {
+      "path": "Durian Samples/24 October 2023/24-10-2023_DSLR_CLASS3_36.JPG",
+      "filename": "24-10-2023_DSLR_CLASS3_36.JPG",
+      "specimen_id": "24-10-2023_CLASS3"
+    },
+    {
+      "path": "Durian Samples/24 October 2023/24-10-2023_DSLR_CLASS3_37.JPG",
+      "filename": "24-10-2023_DSLR_CLASS3_37.JPG",
+      "specimen_id": "24-10-2023_CLASS3"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7_05_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7_05_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-7"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-UNRIPE_7D-6_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-6_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-6"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-UNRIPE_7D-6_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-6_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-6"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-UNRIPE_7D-6_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-6_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-6"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-UNRIPE_7D-6_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-6_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-6"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-UNRIPE_7D-6_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-6_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-6"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-UNRIPE_7D-6_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-6_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-6"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-UNRIPE_7D-6_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-6_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-6"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-UNRIPE_7D-6_05_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-6_05_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-6"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-12_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-12_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-12"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-12_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-12_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-12"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-12_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-12_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-12"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-12_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-12_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-12"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-12_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-12_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-12"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-12_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-12_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-12"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-12_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-12_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-12"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-12_05_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-12_05_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-12"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-MIDRIPE_3D-8_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-MIDRIPE_3D-8_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-MIDRIPE_3D-8"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-MIDRIPE_3D-8_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-MIDRIPE_3D-8_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-MIDRIPE_3D-8"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-MIDRIPE_3D-8_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-MIDRIPE_3D-8_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-MIDRIPE_3D-8"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-MIDRIPE_3D-8_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-MIDRIPE_3D-8_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-MIDRIPE_3D-8"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-MIDRIPE_3D-8_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-MIDRIPE_3D-8_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-MIDRIPE_3D-8"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-MIDRIPE_3D-8_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-MIDRIPE_3D-8_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-MIDRIPE_3D-8"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-MIDRIPE_3D-8_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-MIDRIPE_3D-8_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-MIDRIPE_3D-8"
+    }
+  ],
+  "test": [
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-11_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-11_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-11"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-11_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-11_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-11"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-11_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-11_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-11"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-11_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-11_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-11"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-11_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-11_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-11"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-11_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-11_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-11"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-11_05_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-11_05_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-11"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-UNRIPE_7D-7_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-7_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-7"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-UNRIPE_7D-7_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-7_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-7"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-UNRIPE_7D-7_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-7_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-7"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-UNRIPE_7D-7_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-7_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-7"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-UNRIPE_7D-7_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-7_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-7"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-UNRIPE_7D-7_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-7_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-7"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-UNRIPE_7D-7_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-7_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-7"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 2/27-09-2023_DSLR_CLASS2-UNRIPE_7D-7_05_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-7_05_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-UNRIPE_7D-7"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS1-UNRIPE_3-7D_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS1-UNRIPE_3-7D_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS1-UNRIPE_3-7D"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS1-UNRIPE_3-7D_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS1-UNRIPE_3-7D_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS1-UNRIPE_3-7D"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS1-UNRIPE_3-7D_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS1-UNRIPE_3-7D_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS1-UNRIPE_3-7D"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS1-UNRIPE_3-7D_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS1-UNRIPE_3-7D_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS1-UNRIPE_3-7D"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS1-UNRIPE_3-7D_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS1-UNRIPE_3-7D_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS1-UNRIPE_3-7D"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS1-UNRIPE_3-7D_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS1-UNRIPE_3-7D_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS1-UNRIPE_3-7D"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS1-UNRIPE_3-7D_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS1-UNRIPE_3-7D_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS1-UNRIPE_3-7D"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_SD-15_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_SD-15_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_SD-15"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_SD-15_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_SD-15_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_SD-15"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_SD-15_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_SD-15_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_SD-15"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_SD-15_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_SD-15_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_SD-15"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_SD-15_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_SD-15_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_SD-15"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_SD-15_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_SD-15_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_SD-15"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_SD-15_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_SD-15_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_SD-15"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-08_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-08_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-08"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-08_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-08_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-08"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-08_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-08_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-08"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-08_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-08_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-08"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-08_05.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-08_05.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-08"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-08_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-08_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-08"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-08_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-08_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-08"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-08_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-08_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-08"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-08_05_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-08_05_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-08"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-09_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-09_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-09"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-09_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-09_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-09"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-09_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-09_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-09"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-09_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-09_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-09"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-09_05.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-09_05.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-09"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-09_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-09_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-09"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-09_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-09_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-09"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-09_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-09_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-09"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS3-NOLABEL-09_05_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS3-NOLABEL-09_05_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS3-NOLABEL-09"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-11_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-11_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-11"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-11_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-11_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-11"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-11_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-11_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-11"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-11_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-11_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-11"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-11_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-11_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-11"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-11_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-11_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-11"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-11_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-11_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-11"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-11_05_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-11_05_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-11"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-2_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-2_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-2"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-2_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-2_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-2"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-2_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-2_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-2"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-2_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-2_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-2"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-2_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-2_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-2"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-2_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-2_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-2"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-2_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-2_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-2"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_3D-2_05_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-2_05_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_3D-2"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-15_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-15_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-15"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-15_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-15_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-15"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-15_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-15_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-15"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-15_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-15_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-15"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-15_05_01.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-15_05_01.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-15"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-15_05_02.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-15_05_02.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-15"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-15_05_03.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-15_05_03.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-15"
+    },
+    {
+      "path": "Durian Samples/27 September 2023 Part 1/27-09-2023_DSLR_CLASS2-MIDRIPE_5D-15_05_04.JPG",
+      "filename": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-15_05_04.JPG",
+      "specimen_id": "27-09-2023_DSLR_CLASS2-MIDRIPE_5D-15"
+    }
+  ]
+}
