@@ -165,14 +165,14 @@
     }
   },
   {
-    "class_id": "nhan",
-    "display_name": "Nhãn",
-    "folder_name": "nhan",
-    "aliases": ["longan", "nhan_xuong", "nhan_long"],
+    "class_id": "man",
+    "display_name": "Mận",
+    "folder_name": "man",
+    "aliases": ["wax_apple", "water_apple", "bell_fruit", "man_roi", "roi", "man_an_phuoc"],
     "profile": {
-      "ripeness_type": "tropical_cluster",
-      "sweetness_default": "Ngọt lịm thơm",
-      "storage_tip": "Cắt bớt cuống, để hộp thoáng cất ngăn mát tủ lạnh dùng trong 5–7 ngày."
+      "ripeness_type": "wax_apple",
+      "sweetness_default": "Ngọt thanh mọng nước",
+      "storage_tip": "Bảo quản nơi thoáng mát hoặc bọc kín trong ngăn mát tủ lạnh 5–8°C để giữ độ giòn ngọt mọng nước."
     }
   },
   {
