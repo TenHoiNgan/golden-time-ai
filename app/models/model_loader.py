@@ -24,7 +24,6 @@ IMAGENET_FRUIT_MAP: Dict[int, str] = {
     951: "Cam sành",       # lemon/citrus
     953: "Dứa",            # pineapple
     954: "Chuối",          # banana
-    955: "Thanh long",     # jackfruit / tropical
     957: "Lựu",            # pomegranate
     990: "Dâu tây",        # strawberry
 }
@@ -36,6 +35,7 @@ KEYWORD_TO_FRUIT = [
     ("lemon", "Cam sành"),
     ("citrus", "Cam sành"),
     ("banana", "Chuối"),
+    ("jackfruit", "Mít"),
     ("mango", "Xoài cát Hòa Lộc"),
     ("grape", "Nho"),
     ("strawberry", "Dâu tây"),

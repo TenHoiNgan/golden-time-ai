@@ -78,34 +78,10 @@ class FruitClassifier:
             adjusted_conf = min(1.0, max_fruit_conf * 1.5 + 0.1)
             return matched_fruit, round(adjusted_conf, 4)
 
-        # Dự phòng bằng đặc trưng thị giác màu sắc khi mô hình ImageNet bị phân tán bởi góc chụp
-        color_detected = self._fallback_by_color(visual_features)
-        if color_detected:
-            fruit_name, color_conf = color_detected
-            return fruit_name, round(color_conf, 4)
-
-        # Không nhận diện được hoặc ảnh không phải trái cây
+        # Không suy ra loại quả chỉ từ màu toàn ảnh: lá xanh và phông nền thường
+        # khiến ảnh dưa hấu bị gán nhầm thành cam sành.
         highest_conf = float(topk_probs[0].item())
         return "Chưa nhận diện được", round(min(highest_conf, 0.35), 4)
-
-    def _fallback_by_color(self, features: dict) -> Optional[Tuple[str, float]]:
-        """Phát hiện bổ trợ dựa trên đặc trưng phân bố màu sắc đặc trưng của một số loại quả."""
-        red = features.get("red_ratio", 0.0)
-        yellow_orange = features.get("yellow_orange_ratio", 0.0)
-        green = features.get("green_ratio", 0.0)
-        sat = features.get("avg_sat", 0.0)
-
-        # Chỉ áp dụng khi ảnh có độ bão hòa màu cao (trái cây chụp rõ)
-        if sat < 70:
-            return None
-
-        if red > 0.45:
-            return "Táo", 0.65
-        if yellow_orange > 0.50:
-            return "Chuối", 0.60
-        if green > 0.45:
-            return "Cam sành", 0.58
-        return None
 
 
 class RipenessEstimator:

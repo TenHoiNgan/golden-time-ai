@@ -69,6 +69,12 @@ python training/train.py \
 - `--patience`: Ngưỡng Early Stopping tính theo số epoch không cải thiện validation loss (mặc định 5).
 - `--seed`: Giá trị Random Seed cố định để đảm bảo tính tái lập (mặc định 42).
 
+### Huấn luyện bổ sung lớp Dưa hấu
+
+Lớp `dua_hau` đã có trong registry, nhưng checkpoint baseline hiện tại chưa được huấn luyện với lớp này. Để mô hình nhận diện được Dưa hấu, hãy thêm ảnh dưa hấu đa dạng (bao gồm ảnh ngoài ruộng có lá và dây dưa trong khung hình) vào cả `train/dua_hau` và `val/dua_hau`, rồi truyền `dua_hau` cùng các lớp muốn giữ lại qua `--classes`. Mỗi lớp được truyền vào cần có thư mục dữ liệu ở cả hai tập.
+
+Không nên chỉ dùng ảnh quả trên nền trắng: cần ảnh chụp nhiều góc, ánh sáng và bối cảnh thật để mô hình không học nhầm nền hoặc lá cây thành đặc trưng của quả.
+
 ### Cơ chế an toàn tự động:
 - Tự động sao lưu checkpoint hiện có thành `fruit_model.pt.bak` trước khi ghi đè.
 - Tự động tạo tệp `models/model_meta.json` ghi lại đúng thứ tự `classes`, `class_ids`, `folders`, `best_val_acc` và thời gian train.
